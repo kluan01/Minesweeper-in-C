@@ -21,7 +21,7 @@ void setText(sf::Text &text, float x, float y){ sf::FloatRect textRect = text.ge
 bool run_start_screen() {
 
     // Open file for starting information
-    ifstream config_file("files/config.cfg");
+    ifstream config_file("../files/config.cfg");
     if (!config_file.is_open()) {
         cout << "Issue w/ Config File" << endl;
     }
