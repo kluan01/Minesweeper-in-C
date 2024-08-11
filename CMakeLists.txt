@@ -3,6 +3,9 @@ project(MindSweeper)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+# Copy configuration files to the build directory
+configure_file(files/config.cfg ${CMAKE_BINARY_DIR}/files/config.cfg COPYONLY)
+
 set(SOURCE_FILES main.cpp
         start_screen.cpp
         functions.h
