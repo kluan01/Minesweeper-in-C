@@ -6,10 +6,10 @@ IDE: CLion
 
 Table of Contents:
 
-I. functions.h 
-1. start_screen.cpp
-2. generate_board.cpp
-3. game_screen.cpp
+1. functions.h
+2. start_screen.cpp
+3. generate_board.cpp
+4. game_screen.cpp
   - Lines 9 - 69 : Declaration/Initialization of Variables
   - 74 - 101 : Clock Feature
   - 102 - 240 : User Input Detection
