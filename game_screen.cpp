@@ -3,7 +3,6 @@
 #include "functions.h"
 using namespace std;
 using namespace sf;
-using namespace chrono;
 
 void game_screen() {
     // Load all sprites from files
@@ -63,10 +62,10 @@ void game_screen() {
     bool game_won = false;
     bool game_lost = false;
 
-    auto start = high_resolution_clock::now(); // Time Variables
-    auto pause_start = high_resolution_clock::now();
-    auto pause_end = high_resolution_clock::now();
-    auto pause_time = duration_cast<chrono::seconds>(pause_end - pause_start);
+    auto start = chrono::high_resolution_clock::now(); // Time Variables
+    auto pause_start = chrono::high_resolution_clock::now();
+    auto pause_end = chrono::high_resolution_clock::now();
+    auto pause_time = chrono::duration_cast<chrono::seconds>(pause_end - pause_start);
 
     // Game loop
     while (window.isOpen()) {
