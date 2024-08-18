@@ -1,10 +1,8 @@
-Compiler: -std=c++11
+Compiler: -std=c++11 <br>
+SFML version: SFML 2.5 <br>
+IDE: CLion <br>
 
-SFML version: SFML 2.5
-
-IDE: CLion
-
-# TO RUN
+## TO RUN
 1. download SFML and CMake into your machine then enter the following commands (steps 2-8) into your CLI:
 2. git clone https://github.com/kluan01/Minesweeper-in-C.git
 3. cd Minesweeper-in-C
@@ -15,7 +13,7 @@ IDE: CLion
 8. ./Minesweeper-in-C
 
 
-# TABLE OF CONTENTS
+## TABLE OF CONTENTS
 1. functions.h
 2. start_screen.cpp
 3. generate_board.cpp
